@@ -1,0 +1,27 @@
+/*
+============================================================================
+ Name		: SpaceInvaders.hrh
+ Author	  : Arttu Salonen
+ Copyright   : Copyright 2009 Arttu Salonen
+ Description : This file contains declarations for constants of SpaceInvaders.
+			   The file can be included in C++ or resource file.
+============================================================================
+*/
+#ifndef __SPACEINVADERS_HRH__
+#define __SPACEINVADERS_HRH__
+
+#define _UID3 0xEDBD9496
+
+// SpaceInvaders enumerate command codes
+/*
+ * TODO: Remove the commented stuff!
+ */ 
+  enum TSpaceInvadersIds
+	{
+	ECommand1 = 0x6001, // start value must not be 0
+	ECommand2,
+	EHelp,
+	EAbout
+	};
+
+#endif // __SPACEINVADERS_HRH__
